@@ -1,0 +1,3 @@
+Git branch praktikasını edirəm.
+Bu fayl feature-2 branchində yaradılıb.
+Commit və push test edilir.
