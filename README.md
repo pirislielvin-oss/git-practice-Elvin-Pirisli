@@ -31,3 +31,27 @@ elvin@Elvin-MacBook-Air task %
 ## Feature-1 bölməsi
 
 Bu dəyişiklik feature-1 branchində əlavə olunmuşdur.
+
+feature-1 branchinda ilenen emirler
+
+elvin@Elvin-MacBook-Air task % git checkout -b feature-1
+Switched to a new branch 'feature-1'
+elvin@Elvin-MacBook-Air task % git add README.md
+elvin@Elvin-MacBook-Air task % git commit -m "Update README in feature-1 branch"
+[feature-1 1ca0a44] Update README in feature-1 branch
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+elvin@Elvin-MacBook-Air task % git push -u origin feature-1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 931 bytes | 931.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'feature-1' on GitHub by visiting:
+remote:      https://github.com/pirislielvin-oss/git-practice-Elvin-Pirisli/pull/new/feature-1
+remote: 
+To https://github.com/pirislielvin-oss/git-practice-Elvin-Pirisli.git
+ * [new branch]      feature-1 -> feature-1
+branch 'feature-1' set up to track 'origin/feature-1'.
+elvin@Elvin-MacBook-Air task % 
