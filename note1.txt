@@ -1,0 +1,21 @@
+git featch
+elvin@Elvin-MacBook-Air task % git fetch
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1013 bytes | 144.00 KiB/s, done.
+From https://github.com/pirislielvin-oss/git-practice-Elvin-Pirisli
+   3300c65..9e18e90  main       -> origin/main
+
+GitHub-dakı dəyişikliyi yükləyir amma tətbiq etmir. Faylların içi dəyişmir, sadəcə git "xəbər tutur".
+
+
+git pull
+elvin@Elvin-MacBook-Air task % git pull
+Updating 3300c65..9e18e90
+Fast-forward
+ README.md | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+ GitHub-dakı dəyişikliyi yükləyir VƏ birbaşa tətbiq edir.
