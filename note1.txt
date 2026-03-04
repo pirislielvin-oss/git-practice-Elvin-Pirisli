@@ -19,3 +19,21 @@ Fast-forward
  1 file changed, 3 insertions(+), 1 deletion(-)
 
  GitHub-dakı dəyişikliyi yükləyir VƏ birbaşa tətbiq edir.
+
+
+
+ bu fayli push etmek ucun 
+ elvin@Elvin-MacBook-Air task % git add note1.txt
+elvin@Elvin-MacBook-Air task % git commit -m "update note1"
+[main adbb30f] update note1
+ 1 file changed, 21 insertions(+)
+elvin@Elvin-MacBook-Air task % git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 745 bytes | 745.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pirislielvin-oss/git-practice-Elvin-Pirisli.git
+   12b6989..adbb30f  main -> main
+branch 'main' set up to track 'origin/main'.
