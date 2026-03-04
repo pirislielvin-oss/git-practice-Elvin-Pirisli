@@ -32,7 +32,7 @@ elvin@Elvin-MacBook-Air task %
 
 Bu dəyişiklik feature-1 branchində əlavə olunmuşdur.
 
-feature-1 branchinda ilenen emirler
+feature-1 branchinda islenen emirler
 
 elvin@Elvin-MacBook-Air task % git checkout -b feature-1
 Switched to a new branch 'feature-1'
@@ -55,3 +55,22 @@ To https://github.com/pirislielvin-oss/git-practice-Elvin-Pirisli.git
  * [new branch]      feature-1 -> feature-1
 branch 'feature-1' set up to track 'origin/feature-1'.
 elvin@Elvin-MacBook-Air task % 
+
+push ucun islenen emirler
+
+elvin@Elvin-MacBook-Air task % git add README.md
+elvin@Elvin-MacBook-Air task % git commit -m "Update README"
+[feature-1 d84db84] Update README
+ 1 file changed, 25 insertions(+), 1 deletion(-)
+elvin@Elvin-MacBook-Air task % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 600 bytes | 600.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/pirislielvin-oss/git-practice-Elvin-Pirisli.git
+   1ca0a44..d84db84  feature-1 -> feature-1
+
+   
