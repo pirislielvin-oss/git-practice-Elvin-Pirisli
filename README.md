@@ -5,6 +5,8 @@ Branch yaratma, merge və pull əmrləri test edilir.
 Hazırlayan: Elvin Pirisli.
 Kicik market sistemini eks etdirir.
 
+deyisiklik etdim
+
 README.md -nin githuba push olunmasi ucun islenen emirler.
 elvin@Elvin-MacBook-Air task % git init
 Initialized empty Git repository in /Users/elvin/Desktop/task/.git/
